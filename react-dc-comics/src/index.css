@@ -28,8 +28,9 @@
   align-items: center;
 }
 
-.col {
-  width: auto;
+.col-5 {
+  width: calc(100% / 5);
+  flex-basis: auto;
 }
 
 .col-6 {
@@ -97,6 +98,12 @@
 .icons_section {
   padding: 4rem 0;
   background-color: var(--dc-primary);
+
+  .col-5 {
+    padding: 1rem;
+    text-align: center;
+    color: var(--dc-lighter);
+  }
 }
 
 /* #endregion main  */
