@@ -68,7 +68,9 @@
 
     a {
       text-decoration: none;
-      color: var(--dc-mid);
+      color: var(--dc-dark);
+      font-size: 0.9rem;
+      font-weight: 700;
       display: flex;
       align-items: center;
       padding: 2.8rem 0;
@@ -100,9 +102,16 @@
   background-color: var(--dc-primary);
 
   .col-5 {
-    padding: 1rem;
+    padding: 0 3rem;
     text-align: center;
     color: var(--dc-lighter);
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 20%;
+      margin-right: 1rem;
+    }
   }
 }
 
