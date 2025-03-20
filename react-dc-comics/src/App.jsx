@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './components/Header'
@@ -7,10 +6,14 @@ import Footer from './components/Footer'
 import Icons from './components/Icons'
 
 function App() {
-
-
   return (
-    <h1>placeholder</h1>
+    <>
+      <Header />
+      <Main />
+      <Icons />
+      <Footer />
+    </>
+
   )
 }
 
