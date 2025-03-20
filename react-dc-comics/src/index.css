@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-#site_header {
-  padding: 2rem 0;
-}
-
 .container {
   width: 80%;
   margin: auto;
@@ -18,21 +14,37 @@
   align-items: center;
 }
 
-.col {
-  width: 50%;
+/* #region header  */
 
-  img {
-    max-width: 5rem;
-    height: auto;
-  }
+#site_header {
+  padding: 2rem 0;
 
-  ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+  .col {
+    width: 50%;
 
-    a {
-      text-decoration: none;
+    img {
+      max-width: 5rem;
+      height: auto;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+      }
     }
   }
 }
+
+/* #endregion header  */
+
+/* #region main  */
+
+#site_main {
+  padding: 2rem 0;
+}
+
+/* #endregion main  */
