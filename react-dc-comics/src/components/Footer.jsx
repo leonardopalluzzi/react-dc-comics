@@ -7,7 +7,7 @@ export default function Footer() {
 
 
                     <div className="left_footer d-flex">
-                        <dl>
+                        <dl className="col-4">
                             <dt>DC COMICS</dt>
                             <dd>Characters</dd>
                             <dd>Comics</dd>
@@ -17,7 +17,7 @@ export default function Footer() {
                             <dd>Videos</dd>
                             <dd>News</dd>
                         </dl>
-                        <dl>
+                        <dl className="col-4">
                             <dt>DC</dt>
                             <dd>Terms Of Use</dd>
                             <dd>Privacy policy (New)</dd>
@@ -32,7 +32,7 @@ export default function Footer() {
                             <dd>Contac Us</dd>
                         </dl>
 
-                        <dl>
+                        <dl className="col-4">
                             <dt>SITES</dt>
                             <dd>DC</dd>
                             <dd>MAD Magazine</dd>
@@ -41,7 +41,7 @@ export default function Footer() {
                             <dd>DC Power Visa</dd>
                         </dl>
 
-                        <dl>
+                        <dl className="col-4">
                             <dt>SHOP</dt>
                             <dd>Shop DC</dd>
                             <dd>Shop DC Collectibles</dd>
