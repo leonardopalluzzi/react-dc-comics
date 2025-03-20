@@ -49,12 +49,15 @@
 /* #region header  */
 
 #site_header {
-  padding: 1rem 0;
   background-color: var(--dc-lighter);
 
   img {
     max-width: 5rem;
     height: auto;
+  }
+
+  .menu {
+    height: 100%;
   }
 
   ul {
@@ -65,11 +68,18 @@
     a {
       text-decoration: none;
       color: var(--dc-mid);
+      display: flex;
+      align-items: center;
+      padding: 2.8rem 0;
 
       &:hover {
         color: var(--dc-primary);
       }
     }
+  }
+
+  .active {
+    border-bottom: 4px solid var(--dc-primary);
   }
 
 }
@@ -151,19 +161,17 @@
   }
 
   .social_icons {
+    align-items: center;
+
     h4 {
       margin-right: 2rem;
       color: var(--dc-cta);
+      font-size: 1.2rem;
     }
 
     ul {
       list-style: none;
       gap: 30px;
-
-      a {
-        text-decoration: none;
-        color: var(--dc-mid);
-      }
     }
   }
 
@@ -172,6 +180,7 @@
     background-color: transparent;
     border: 1px solid var(--dc-cta);
     color: var(--dc-lighter);
+    font-size: 1rem;
 
     &:hover {
       background-color: var(--dc-cta);

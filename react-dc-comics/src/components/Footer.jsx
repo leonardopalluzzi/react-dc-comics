@@ -62,11 +62,12 @@ export default function Footer() {
                     <div className="social_icons d-flex">
                         <h4>FOLLOW US</h4>
                         <ul className="d-flex">
-                            <li><a href="">F</a></li>
-                            <li><a href="">T</a></li>
-                            <li><a href="">Y</a></li>
-                            <li><a href="">P</a></li>
-                            <li><a href="">PS</a></li>
+                            <li><a href="">
+                                <img src="./img/footer-facebook.png" alt="" /></a></li>
+                            <li><a href=""><img src="./img/footer-twitter.png" alt="" /></a></li>
+                            <li><a href=""><img src="./img/footer-youtube.png" alt="" /></a></li>
+                            <li><a href=""><img src="./img/footer-pinterest.png" alt="" /></a></li>
+                            <li><a href=""><img src="./img/footer-periscope.png" alt="" /></a></li>
                         </ul>
                     </div>
                 </div>
