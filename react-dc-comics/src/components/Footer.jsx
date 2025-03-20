@@ -3,10 +3,10 @@ export default function Footer() {
     return (
         <footer id="site_footer">
             <section id="top_footer">
-                <div className="container">
+                <div className="container d-flex">
 
 
-                    <div className="left_footer">
+                    <div className="left_footer d-flex">
                         <dl>
                             <dt>DC COMICS</dt>
                             <dd>Characters</dd>
@@ -56,11 +56,11 @@ export default function Footer() {
             </section>
 
             <section id="bottom_footer">
-                <div className="container">
+                <div className="container d-flex">
                     <button className="btn">SING-UP NOW!</button>
-                    <div className="social_icons">
+                    <div className="social_icons d-flex">
                         <h4>FOLLOW US</h4>
-                        <ul>
+                        <ul className="d-flex">
                             <li><a href="">F</a></li>
                             <li><a href="">T</a></li>
                             <li><a href="">Y</a></li>

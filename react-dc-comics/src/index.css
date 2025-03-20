@@ -22,6 +22,10 @@
   width: 50%;
 }
 
+.d-flex {
+  display: flex;
+}
+
 /* #region header  */
 
 #site_header {
@@ -68,14 +72,38 @@
   }
 
   .left_footer {
-    display: flex;
     gap: 50px;
   }
 
   .container {
-    display: flex;
+
     justify-content: space-between;
   }
+}
+
+#bottom_footer {
+  .container {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .social_icons {
+    h4 {
+      margin-right: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      gap: 30px;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+
+
 }
 
 
