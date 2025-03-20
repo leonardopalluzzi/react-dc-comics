@@ -1,4 +1,6 @@
 /* #region common  */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Viga&display=swap');
+
 :root {
   --dc-lighter: white;
   --dc-primary: #0282f9;
@@ -13,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -109,6 +112,27 @@
     gap: 50px;
     flex-wrap: wrap;
     padding-right: 4rem;
+
+    dt {
+      margin: 1.5rem 0;
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+
+    dd {
+      a {
+        text-decoration: none;
+        margin-top: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: var(--dc-mid);
+
+        &:hover {
+          color: var(--dc-primary);
+        }
+      }
+
+    }
   }
 
   .container {

@@ -9,42 +9,43 @@ export default function Footer() {
                     <div className="left_footer d-flex">
                         <dl className="col-4">
                             <dt>DC COMICS</dt>
-                            <dd>Characters</dd>
-                            <dd>Comics</dd>
-                            <dd>Movies</dd>
-                            <dd>TV</dd>
-                            <dd>Games</dd>
-                            <dd>Videos</dd>
-                            <dd>News</dd>
+                            <dd><a href="#">Characters</a></dd>
+                            <dd><a href="#">Comics</a></dd>
+                            <dd><a href="#">Movies</a></dd>
+                            <dd><a href="#">TV</a></dd>
+                            <dd><a href="#">Games</a></dd>
+                            <dd><a href="#">Videos</a></dd>
+                            <dd><a href="#">News</a></dd>
+                            <dt>SHOP</dt>
+                            <dd><a href="#">Shop DC</a></dd>
+                            <dd><a href="#">Shop DC Collectibles</a></dd>
                         </dl>
                         <dl className="col-4">
                             <dt>DC</dt>
-                            <dd>Terms Of Use</dd>
-                            <dd>Privacy policy (New)</dd>
-                            <dd>Ad Choices</dd>
-                            <dd>Advertising</dd>
-                            <dd>Jobs</dd>
-                            <dd>Subscriptions</dd>
-                            <dd>Talent Workshop</dd>
-                            <dd>CPSC Certificates</dd>
-                            <dd>Ratings</dd>
-                            <dd>Shop Help</dd>
-                            <dd>Contac Us</dd>
+                            <dd><a href="#">Terms Of Use</a></dd>
+                            <dd><a href="#">Privacy policy (New)</a></dd>
+                            <dd><a href="#">Ad Choices</a></dd>
+                            <dd><a href="#">Advertising</a></dd>
+                            <dd><a href="#">Jobs</a></dd>
+                            <dd><a href="#">Subscriptions</a></dd>
+                            <dd><a href="#">Talent Workshop</a></dd>
+                            <dd><a href="#">CPSC Certificates</a></dd>
+                            <dd><a href="#">Ratings</a></dd>
+                            <dd><a href="#">Shop Help</a></dd>
+                            <dd><a href="#">Contac Us</a></dd>
                         </dl>
 
                         <dl className="col-4">
                             <dt>SITES</dt>
-                            <dd>DC</dd>
-                            <dd>MAD Magazine</dd>
-                            <dd>DC Kids</dd>
-                            <dd>DC Universe</dd>
-                            <dd>DC Power Visa</dd>
+                            <dd><a href="#">DC</a></dd>
+                            <dd><a href="#">MAD Magazine</a></dd>
+                            <dd><a href="#">DC Kids</a></dd>
+                            <dd><a href="#">DC Universe</a></dd>
+                            <dd><a href="#">DC Power Visa</a></dd>
                         </dl>
 
                         <dl className="col-4">
-                            <dt>SHOP</dt>
-                            <dd>Shop DC</dd>
-                            <dd>Shop DC Collectibles</dd>
+
                         </dl>
                     </div>
 
