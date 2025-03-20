@@ -115,6 +115,7 @@
 
 #top_footer {
   background-image: url('../public/img/footer-bg.jpg');
+  background-size: cover;
 
   .right_footer {
     width: 50%;
