@@ -4,10 +4,10 @@ export default function Header() {
         <header id="site_header">
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-6">
                         <img src="./img/dc-logo.png" alt="" />
                     </div>
-                    <div className="col">
+                    <div className="col-6">
                         <ul>
                             <li><a href="">CHARACTERS</a></li>
                             <li><a href="">COMICS</a></li>

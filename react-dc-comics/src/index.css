@@ -14,29 +14,34 @@
   align-items: center;
 }
 
+.col {
+  width: auto;
+}
+
+.col-6 {
+  width: 50%;
+}
+
 /* #region header  */
 
 #site_header {
   padding: 2rem 0;
 
-  .col {
-    width: 50%;
+  img {
+    max-width: 5rem;
+    height: auto;
+  }
 
-    img {
-      max-width: 5rem;
-      height: auto;
-    }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 
-    ul {
-      display: flex;
-      list-style: none;
-      gap: 20px;
-
-      a {
-        text-decoration: none;
-      }
+    a {
+      text-decoration: none;
     }
   }
+
 }
 
 /* #endregion header  */
@@ -48,3 +53,31 @@
 }
 
 /* #endregion main  */
+
+/* #region footer  */
+
+#top_footer {
+  padding: 4rem 0;
+
+  .right_footer {
+    width: 50%;
+    background-image: url('../public/img/dc-logo-bg.png');
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .left_footer {
+    display: flex;
+    gap: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
+/* #endregion footer  */
