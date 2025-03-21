@@ -1,12 +1,9 @@
 img {
-    max-width: 20%;
-    margin-bottom: 1rem;
-    display: block;
+    max-width: 100%;
 }
 
 span {
     font-weight: 500;
-    display: block;
 }
 
 .img_style {
@@ -16,9 +13,19 @@ span {
 
 
 .span_style {
+    display: block;
+    padding-top: 1rem;
     font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .card_header {
-    width: 300px;
+    overflow-y: hidden;
+    aspect-ratio: 1;
+}
+
+.col_2 {
+    width: calc(100% / 12 * 2);
+    padding: 1rem;
 }

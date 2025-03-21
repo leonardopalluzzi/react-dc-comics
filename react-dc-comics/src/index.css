@@ -26,19 +26,24 @@
 .row {
   display: flex;
   align-items: center;
+  margin: 0 -1rem;
+  flex-wrap: wrap;
 }
 
 .col-5 {
   width: calc(100% / 5);
   flex-basis: auto;
+  padding: 1rem;
 }
 
 .col-6 {
   width: 50%;
+
 }
 
 .col-4 {
   width: calc(100% / 4);
+  padding: 1rem;
 }
 
 .d-flex {
@@ -89,12 +94,27 @@
 
 /* #endregion header  */
 
+/* #region jumbotron  */
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  background-image: url('../img/jumbotron.jpg');
+  background-size: cover;
+}
+
+/* #endregion jumbotron  */
+
 /* #region main  */
 
 #site_main {
-  padding: 4rem 0;
+
   background-color: var(--dc-darkest);
   color: var(--dc-lighter);
+
+  .container {
+    position: relative;
+    padding: 4rem 0;
+  }
 }
 
 .icons_section {
@@ -120,6 +140,9 @@
 .main_label {
   background-color: var(--dc-primary);
   color: var(--dc-lighter);
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
 }
 
 /* #endregion main  */
