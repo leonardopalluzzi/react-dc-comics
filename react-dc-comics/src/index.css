@@ -115,6 +115,15 @@
     position: relative;
     padding: 4rem 0;
   }
+
+  .container_bottom {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
 }
 
 .icons_section {
@@ -147,6 +156,21 @@
   top: 0;
   left: 2rem;
   transform: translate(-50%, -50%);
+}
+
+.btn_secondary {
+  padding: 0.7rem 3.5rem;
+  background-color: var(--dc-cta);
+  border: none;
+  color: var(--dc-lighter);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  &:hover {
+    background-color: var(--dc-mid);
+    cursor: pointer;
+  }
 }
 
 /* #endregion main  */

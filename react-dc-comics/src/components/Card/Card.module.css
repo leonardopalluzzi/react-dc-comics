@@ -29,3 +29,7 @@ span {
     width: calc(100% / 12 * 2);
     padding: 1rem;
 }
+
+.card_body {
+    height: 50px;
+}
