@@ -1,8 +1,24 @@
 img {
-    max-width: 100%;
+    max-width: 20%;
     margin-bottom: 1rem;
+    display: block;
 }
 
 span {
     font-weight: 500;
+    display: block;
+}
+
+.img_style {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.span_style {
+    font-weight: 500;
+}
+
+.card_header {
+    width: 300px;
 }

@@ -114,10 +114,12 @@
     }
   }
 
-  .main_label {
-    background-color: var(--dc-primary);
-    color: var(--dc-lighter);
-  }
+
+}
+
+.main_label {
+  background-color: var(--dc-primary);
+  color: var(--dc-lighter);
 }
 
 /* #endregion main  */
