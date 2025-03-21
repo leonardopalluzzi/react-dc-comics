@@ -19,7 +19,7 @@
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -140,9 +140,13 @@
 .main_label {
   background-color: var(--dc-primary);
   color: var(--dc-lighter);
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   position: absolute;
   top: 0;
+  left: 2rem;
+  transform: translate(-50%, -50%);
 }
 
 /* #endregion main  */
