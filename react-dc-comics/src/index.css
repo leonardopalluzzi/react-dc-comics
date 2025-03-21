@@ -113,6 +113,11 @@
       margin-right: 1rem;
     }
   }
+
+  .main_label {
+    background-color: var(--dc-primary);
+    color: var(--dc-lighter);
+  }
 }
 
 /* #endregion main  */
