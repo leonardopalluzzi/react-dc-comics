@@ -1,5 +1,5 @@
 import Card from './Card/Card'
-import data from '../data/comics'
+import data from '../data/dc-comics-2/comics'
 
 export default function CardList() {
     return (
