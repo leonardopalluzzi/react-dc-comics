@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function Footer({ dcComics, shop, dc, sites }) {
 
     return (
         <footer id="site_footer">
@@ -9,39 +9,27 @@ export default function Footer() {
                     <div className="left_footer d-flex">
                         <dl className="col-4">
                             <dt>DC COMICS</dt>
-                            <dd><a href="#">Characters</a></dd>
-                            <dd><a href="#">Comics</a></dd>
-                            <dd><a href="#">Movies</a></dd>
-                            <dd><a href="#">TV</a></dd>
-                            <dd><a href="#">Games</a></dd>
-                            <dd><a href="#">Videos</a></dd>
-                            <dd><a href="#">News</a></dd>
+
+                            {dcComics.map(item => (
+                                <dd key={`comic-${item.id}`}><a href={item.link}>{item.title}</a></dd>
+                            ))}
                             <dt>SHOP</dt>
-                            <dd><a href="#">Shop DC</a></dd>
-                            <dd><a href="#">Shop DC Collectibles</a></dd>
+                            {shop.map(item => (
+                                <dd key={`shop-${item.id}`}><a href={item.link}>{item.title}</a></dd>
+                            ))}
                         </dl>
                         <dl className="col-4">
                             <dt>DC</dt>
-                            <dd><a href="#">Terms Of Use</a></dd>
-                            <dd><a href="#">Privacy policy (New)</a></dd>
-                            <dd><a href="#">Ad Choices</a></dd>
-                            <dd><a href="#">Advertising</a></dd>
-                            <dd><a href="#">Jobs</a></dd>
-                            <dd><a href="#">Subscriptions</a></dd>
-                            <dd><a href="#">Talent Workshop</a></dd>
-                            <dd><a href="#">CPSC Certificates</a></dd>
-                            <dd><a href="#">Ratings</a></dd>
-                            <dd><a href="#">Shop Help</a></dd>
-                            <dd><a href="#">Contac Us</a></dd>
+                            {dc.map(item => (
+                                <dd key={`dc-${item.id}`}><a href={item.link}>{item.title}</a></dd>
+                            ))}
                         </dl>
 
                         <dl className="col-4">
                             <dt>SITES</dt>
-                            <dd><a href="#">DC</a></dd>
-                            <dd><a href="#">MAD Magazine</a></dd>
-                            <dd><a href="#">DC Kids</a></dd>
-                            <dd><a href="#">DC Universe</a></dd>
-                            <dd><a href="#">DC Power Visa</a></dd>
+                            {sites.map(item => (
+                                <dd key={`sites-${item.id}`}><a href={item.link}>{item.title}</a></dd>
+                            ))}
                         </dl>
 
                         <dl className="col-4">
@@ -50,7 +38,6 @@ export default function Footer() {
                     </div>
 
                     <div className="right_footer"></div>
-                    {/* <img src="./img/dc-logo-bg.png" alt="" /> */}
 
 
                 </div>

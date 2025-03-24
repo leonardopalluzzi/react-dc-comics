@@ -11,8 +11,11 @@ export default function Header({ nav }) {
                         <ul>
 
                             {nav.map(item => (
-                                <li key={item.id}><a className={item.active ? "active" : ""} href={item.link}>{item.title}</a></li>
+                                <li key={`nav-${item.id}`}><a className={item.active ? "active" : ""} href={item.link}>{item.title}</a></li>
                             ))}
+
+                            {/* test  */}
+                            {nav.map(comic => console.log(comic.id))}
                             {/* <li><a href="">CHARACTERS</a></li>
                             <li><a className={nav.active} href="">{nav.title}</a></li>
                             <li><a href="">MOVIES</a></li>

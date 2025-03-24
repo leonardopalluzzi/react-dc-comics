@@ -5,6 +5,7 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 import Icons from './components/Icons'
 import Jumbotron from './components/Jumbotron'
+import { dcComics, shop, dc, sites } from './data/footerData'
 
 const nav = [
   {
@@ -76,7 +77,7 @@ function App() {
       <Jumbotron />
       <Main />
       <Icons />
-      <Footer />
+      <Footer dcComics={dcComics} shop={shop} dc={dc} sites={sites} />
     </>
 
   )
