@@ -15,55 +15,55 @@ const nav = [
     active: false
   },
   {
-    id: 1,
+    id: 2,
     title: 'COMICS',
     link: '#',
     active: false
   },
   {
-    id: 1,
+    id: 3,
     title: 'MOVIES',
     link: '#',
     active: true
   },
   {
-    id: 1,
+    id: 4,
     title: 'TV',
     link: '#',
     active: false
   },
   {
-    id: 1,
+    id: 5,
     title: 'GAMES',
     link: '#',
     active: false
   },
   {
-    id: 1,
+    id: 6,
     title: 'COLLECTIBLES',
     link: '#',
     active: false
   },
   {
-    id: 1,
+    id: 7,
     title: 'VIDEOS',
     link: '#',
     active: false
   },
   {
-    id: 1,
+    id: 8,
     title: 'FANS',
     link: '#',
     active: false
   },
   {
-    id: 1,
+    id: 9,
     title: 'NEWS',
     link: '#',
     active: false
   },
   {
-    id: 1,
+    id: 10,
     title: 'SHOP',
     link: '#',
     active: false

@@ -1,5 +1,9 @@
 export default function Header({ nav }) {
 
+    const arrTry = nav.map(item => (
+        <li key={`nav-${item.id}`}><a className={item.active ? "active" : ""} href={item.link}>{item.title}</a></li>
+    ))
+
     return (
         <header id="site_header">
             <div className="container">
@@ -15,7 +19,7 @@ export default function Header({ nav }) {
                             ))}
 
                             {/* test  */}
-                            {nav.map(comic => console.log(comic.id))}
+                            {console.log(arrTry)}
                             {/* <li><a href="">CHARACTERS</a></li>
                             <li><a className={nav.active} href="">{nav.title}</a></li>
                             <li><a href="">MOVIES</a></li>
