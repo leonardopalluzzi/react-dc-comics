@@ -54,7 +54,6 @@ export default function CardList() {
         )
     })
 
-
     console.log(filteredData);
 
     return (
