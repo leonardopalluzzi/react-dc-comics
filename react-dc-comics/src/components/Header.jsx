@@ -18,8 +18,6 @@ export default function Header({ nav }) {
                                 <li key={`nav-${item.id}`}><a className={item.active ? "active" : ""} href={item.link}>{item.title}</a></li>
                             ))}
 
-                            {/* test  */}
-                            {console.log(arrTry)}
                             {/* <li><a href="">CHARACTERS</a></li>
                             <li><a className={nav.active} href="">{nav.title}</a></li>
                             <li><a href="">MOVIES</a></li>

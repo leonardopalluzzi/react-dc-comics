@@ -102,25 +102,25 @@ const dc = [
 
     },
     {
-        id: 7,
+        id: 8,
         title: 'CPSC Certificates',
         link: '#',
 
     },
     {
-        id: 7,
+        id: 9,
         title: 'Ratings',
         link: '#',
 
     },
     {
-        id: 7,
+        id: 10,
         title: 'Shop Help',
         link: '#',
 
     },
     {
-        id: 7,
+        id: 11,
         title: 'Contac Us',
         link: '#',
 
