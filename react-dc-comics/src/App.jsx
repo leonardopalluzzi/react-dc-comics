@@ -6,10 +6,73 @@ import Footer from './components/Footer'
 import Icons from './components/Icons'
 import Jumbotron from './components/Jumbotron'
 
+const nav = [
+  {
+    id: 1,
+    title: 'CHARACTERS',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'COMICS',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'MOVIES',
+    link: '#',
+    active: true
+  },
+  {
+    id: 1,
+    title: 'TV',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'GAMES',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'COLLECTIBLES',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'VIDEOS',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'FANS',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'NEWS',
+    link: '#',
+    active: false
+  },
+  {
+    id: 1,
+    title: 'SHOP',
+    link: '#',
+    active: false
+  },
+]
+
 function App() {
   return (
     <>
-      <Header />
+      <Header nav={nav} />
       <Jumbotron />
       <Main />
       <Icons />
